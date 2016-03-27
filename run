@@ -1,0 +1,6 @@
+docker run --rm --name hexo-blog \
+       -e VIRTUAL_HOST="icyleaf.com" \
+       -e LETSENCRYPT_HOST="icyleaf.com" \
+       -e LETSENCRYPT_EMAIL="icyleaf.cn@gmail.com" \
+       -v /data/sites/icyleaf.com/source:/DATA/source \
+       alpine-hexo-dev
