@@ -1,4 +1,4 @@
-# Minimal Hexo Docker Images (176 MB)
+# Minimal Hexo Docker Images (176MB or 56 MB compressed)
 
 Inspired by [simplyintricate/hexo](https://hub.docker.com/r/simplyintricate/hexo/) but build with [Alpine](http://www.alpinelinux.org/) Linux.
 
